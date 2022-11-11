@@ -1,7 +1,7 @@
 package facade;
 
 /**
- * Класс-Facade
+ * Класс-калькулятор чисел в двоичной системе
  */
 public class BinOps {
 

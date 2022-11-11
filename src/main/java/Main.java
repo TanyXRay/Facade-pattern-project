@@ -1,13 +1,11 @@
-import facade.BinOps;
+import facade.BinOpsFacade;
 
 public class Main {
 
     public static void main(String[] args) {
-        BinOps bins = new BinOps();
-
+        BinOpsFacade binOpsFacade = new BinOpsFacade();
         try {
-            System.out.println(bins.sum("1000", "10"));
-            System.out.println(bins.mult("111", "1001"));
+            System.out.println(binOpsFacade.sumAndMult("", "10"));
         } catch (NullPointerException e) {
             throw new RuntimeException("В аргументы метода передан null!");
         }
